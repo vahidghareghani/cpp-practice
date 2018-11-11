@@ -18,6 +18,13 @@ public:
     void addShape(Shape& t){
         shapes.push_back(&t);
     }
+    void remove(){
+        for (auto it=shapes.begin(); it!=shapes.end(); it++) {
+            if ((*it) == (Shape*)this) {
+                shapes.erase(it);
+            }
+        }
+    }
     unsigned long size(){
         return shapes.size();
     }
@@ -33,3 +40,4 @@ public:
 
 
 #endif /* ShapeList_h */
+
