@@ -3,6 +3,8 @@
 #include <vector>
 #include <iostream>
 #include "Shape.h"
+#include "Circle.h"
+#include "Rectangle.h"
 using namespace std;
 
 class ShapeList {
@@ -40,4 +42,3 @@ public:
 
 
 #endif /* ShapeList_h */
-
