@@ -8,6 +8,7 @@ public:
     int getRadius();
     void setRadius(int newradius);
     void draw();
+    double getArea();
     
 private:
     int radius;

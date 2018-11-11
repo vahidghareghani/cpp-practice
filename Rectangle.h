@@ -9,7 +9,7 @@ public:
     void setWidth(int newwidth);
     void setHeight(int newheight);
     void draw();
-    
+    double getArea();
 private:
     int width;
     int height;

@@ -19,3 +19,7 @@ void Rectangle::draw() {
     cout << "Drawing a Rectangle at:(" << getX() << "," << getY() <<
     "), width " << getWidth() << ", height " << getHeight() << endl;
 }
+
+double Rectangle::getArea(){
+    return getWidth() * getHeight();
+}
