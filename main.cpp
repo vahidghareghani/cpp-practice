@@ -12,5 +12,7 @@ int main(){
     list.print();
     list.sort();
     list.print();
+    list.remove(&v);
+    list.print();
     return 0;
 }

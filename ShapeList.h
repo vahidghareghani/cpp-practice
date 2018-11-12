@@ -20,9 +20,9 @@ public:
     void addShape(Shape& t){
         shapes.push_back(&t);
     }
-    void remove(){
+    void remove(Shape* s){
         for (auto it=shapes.begin(); it!=shapes.end(); it++) {
-            if ((*it) == (Shape*)this) {
+            if ((*it) == s) {
                 shapes.erase(it);
             }
         }
